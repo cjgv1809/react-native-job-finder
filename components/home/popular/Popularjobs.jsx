@@ -22,9 +22,6 @@ const Popularjobs = () => {
     query: "React developer",
     num_pages: 1,
   });
-  console.log("DATA", { data });
-  console.log("ISLOADING", isLoading);
-  console.log("ERROR", error);
 
   const [selectedJob, setSelectedJob] = useState();
 
