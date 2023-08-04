@@ -13,8 +13,7 @@ const styles = StyleSheet.create({
     backgroundColor: name === activeTab ? COLORS.primary : "#F3F4F8",
     borderRadius: SIZES.medium,
     marginLeft: 2,
-    ...SHADOWS.medium,
-    shadowColor: COLORS.white,
+    ...SHADOWS.small,
   }),
   btnText: (name, activeTab) => ({
     fontFamily: "DMMedium",
